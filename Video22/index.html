@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 80vw;
+            height: 20vh;
+            font-size: 12px;
+            margin: auto;
+            background-color: aqua;
+
+        }
+        .container{
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 80vw;
+            min-height: 80vh;
+            margin: 23px auto;
+            background-color: aqua;
+            font-size: 16px;
+            /* height: 80vh; */
+
+        }
+        .container > div{
+            font-size: 1em;
+            width: 50%;
+            border: 2px solid red;
+            
+        }
+        .container > div > div{
+            width: 50%;
+            border: 2px solid blue;
+        }
+        .mycont{
+            box-sizing: border-box;
+            margin: 23px auto;
+            border: 2px solid black;
+            font-size: 22px;
+            color: red;
+            width: 80vw;
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        This is a box
+    </div>
+    <div class="container">
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, veniam doloremque exercitationem ad minus quod. Iusto, rem ducimus maxime quibusdam eius sapiente dolores quam deserunt nesciunt fuga facere necessitatibus sint beatae ut ex aut eaque! Distinctio dolor sit in, illum rerum aut. Consequatur eos tempore repudiandae obcaecati, provident reprehenderit vitae sapiente sit aliquam perspiciatis delectus nam.</div>
+        <div>
+        <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident accusamus quam maiores nam dignissimos eos nisi hic corrupti incidunt, debitis veniam enim impedit magnam sit, ut aliquam. Adipisci, ea! Expand this by yourself </div>
+    </div>
+    </div>
+    <div class="mycont">
+         I m another box.
+    </div>
+    
+</body>
+</html>

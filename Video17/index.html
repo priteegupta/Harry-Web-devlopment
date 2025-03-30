@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        /* Element selector */
+        div{
+            background-color: red;
+        } 
+
+        /* class selector */
+         .red{
+            background-color: aquamarine;
+        } 
+
+        /* id selector */
+        #green{
+            background-color: blue;
+        } 
+
+        /* child selector */
+          div > p{
+            color: blue;
+            background-color: aquamarine;
+          } 
+
+          /* descendant selector */
+          div p{
+            color: palevioletred;
+            background-color: blue;
+          }
+
+          /* Universal Selector */
+          *{
+             margin: 0;
+             padding: 0;
+          }
+
+          /* pseudo selector */
+
+           a:visited{
+            color: violet;
+           }
+           a:link{
+            color: green;
+           }
+           a:active{
+            background-color: brown;
+           }
+           a:hover{
+            background-color: yellowgreen;
+           }
+           p:first-child{
+            background-color: orange;
+           }
+    
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p> first</p>
+        <p>second </p>
+    </main>
+
+    <div class="red">
+        Ok bye
+        <p> I am okkk inside div</p>
+    </div>
+    <div id="green">
+        I am div
+    </div>
+    <a href="https://www.google.com/"> Google run</a>
+    <a href="https://www.pinterest.com/">Pinterest</a>
+</body>
+</html>
